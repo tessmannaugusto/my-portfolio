@@ -1,0 +1,69 @@
+:root{
+    --main-letter-color: rgb(248, 248, 245);
+    --main-header-bg-color: #000;
+}
+
+.menu-header {
+    background-color: var(--main-header-bg-color);
+    color: var(--main-letter-color);
+    width: 80px;
+    min-width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ul{
+    list-style: none;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+}
+
+.ul li {
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.ul li a {
+    text-decoration: none;
+    font-size: 1rem;
+    color: inherit;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    transition: all ease 0.3s;
+}
+
+.ul li a:hover {
+    color: crimson;
+}
+
+.icon {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 640px) {
+    .header-section {
+        flex-direction: row;
+        height: 70px ;
+        width: 100vw;
+    }
+
+    .ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        align-items: center;
+    }
+    
+    .ul li {
+        margin-right: 5px;
+        height: 100%;
+    }
+  }

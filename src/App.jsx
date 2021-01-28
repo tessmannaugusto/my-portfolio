@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom';
 import { MainContent } from './components/MainContent';
-import { SideBarMenu } from './components/SideBarMenu';
+import { MenuHeader } from './components/MenuHeader';
 
 import './App.css';
 
@@ -10,8 +10,8 @@ export const App = () => {
     return(
         <div className="main-container">
             <BrowserRouter>
-                <SideBarMenu></SideBarMenu>
-                <MainContent></MainContent>
+                <MenuHeader />
+                <MainContent />
             </BrowserRouter>
         </div>  
     )

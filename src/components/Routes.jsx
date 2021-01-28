@@ -10,7 +10,6 @@ import { NotFound } from './NotFound'
 export const Routes = () => {
     return(
         <div>
-            <h1>Alô</h1>
             <Switch>
                 <Route exact path="/about">
                     <About></About>
