@@ -7,7 +7,7 @@ export const SideBarMenu = () => {
     return(
         <header className="menu">
             <h3>logo</h3>
-            <nav classNam ="menu-nav">
+            <nav className ="menu-nav">
                 <ul className="menu-nav ul">
                     <li><Link to="/">Home</Link></li>
                     <li><Link to="/about">Me</Link></li>
